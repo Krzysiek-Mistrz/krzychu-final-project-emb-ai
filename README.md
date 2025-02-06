@@ -10,51 +10,7 @@ This project is a web application that utilizes IBM Watson AI (via the Watson Em
 - **Testing:** Unit tests are provided to verify the functionality of the emotion detection function.
 
 ## Project Structure
-├── EmotionDetection
-│   ├── emotion_detection.py
-│   ├── __init__.py
-│   └── __pycache__
-│       ├── emotion_detection.cpython-310.pyc
-│       └── __init__.cpython-310.pyc
-├── LICENSE
-├── __pycache__
-│   └── emotion_detection.cpython-310.pyc
-├── README.md
-├── server.py
-├── static
-│   └── mywebscript.js
-├── templates
-│   └── index.html
-├── test_emotion_detection.py
-└── venv
-    ├── bin
-    │   ├── activate
-    │   ├── activate.csh
-    │   ├── activate.fish
-    │   ├── Activate.ps1
-    │   ├── flask
-    │   ├── get_gprof
-    │   ├── get_objgraph
-    │   ├── isort
-    │   ├── isort-identify-imports
-    │   ├── normalizer
-    │   ├── pip
-    │   ├── pip3
-    │   ├── pip3.10
-    │   ├── pylint
-    │   ├── pylint-config
-    │   ├── pyreverse
-    │   ├── python -> python3
-    │   ├── python3 -> /usr/bin/python3
-    │   ├── python3.10 -> python3
-    │   ├── symilar
-    │   └── undill
-    ├── include
-    ├── lib
-    │   └── python3.10
-    │       └── site-packages
-    ├── lib64 -> lib
-    └── pyvenv.cfg
+EmotionDetection/ │── emotion_detection.py # Function to call Watson Emotion API │── init.py │── pycache/ │ │── emotion_detection.cpython-310.pyc │ └── init.cpython-310.pyc │ ├── LICENSE ├── README.md # Project documentation ├── server.py # Flask server for handling requests ├── test_emotion_detection.py # Unit tests for emotion detection │ ├── static/ │ └── mywebscript.js # JavaScript file for client-side logic │ ├── templates/ │ └── index.html # Frontend template for web interface │ ├── venv/ # Virtual environment │ ├── bin/ │ │ ├── activate │ │ ├── activate.csh │ │ ├── activate.fish │ │ ├── Activate.ps1 │ │ ├── flask │ │ ├── pip, pip3, pip3.10 │ │ ├── pylint, pylint-config │ │ ├── python -> python3 │ │ ├── python3 -> /usr/bin/python3 │ │ ├── python3.10 -> python3 │ │ ├── symilar │ │ └── undill │ ├── include/ │ ├── lib/ │ │ └── python3.10/ │ │ └── site-packages/ │ ├── lib64 -> lib │ └── pyvenv.cfg
 
 ## License
 
