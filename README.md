@@ -10,6 +10,7 @@ This project is a web application that utilizes IBM Watson AI (via the Watson Em
 - **Testing:** Unit tests are provided to verify the functionality of the emotion detection function.
 
 ## Project Structure
+```
 ├── EmotionDetection
 │   ├── emotion_detection.py
 │   ├── __init__.py
@@ -55,6 +56,7 @@ This project is a web application that utilizes IBM Watson AI (via the Watson Em
     │       └── site-packages
     ├── lib64 -> lib
     └── pyvenv.cfg
+```  
 
 ## License
 
